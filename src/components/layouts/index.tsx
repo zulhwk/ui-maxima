@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom";
 
 export interface LayoutProps extends ComponentProps<"div"> {};
 
-export const Layouts: FC<LayoutProps> = ({ ...props }) => {
+export const Layouts  = ({ ...props }) => {
   return (
     <div>
       <Navbar />
